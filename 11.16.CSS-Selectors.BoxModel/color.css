@@ -1,0 +1,17 @@
+/* .text{
+    color: red;
+} */
+
+/* .text {
+    color: rgb(255, 255, 0);
+} */
+
+/* .text {
+    color: rgba(255, 0, 0, 0.8);
+} */
+
+.text {
+    color: #FFB3BB;
+    /* opacity: 0.5; */
+    background-color: #282A35;
+}

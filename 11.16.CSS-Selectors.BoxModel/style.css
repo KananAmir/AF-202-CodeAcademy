@@ -1,0 +1,156 @@
+/* Reset CSS */
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: green;
+}
+
+.heading {
+    color: aqua;
+}
+
+#heading {
+    color: blue;
+}
+
+.text {
+    color: blueviolet !important;
+}
+
+.text-red {
+    color: red;
+} */
+
+
+/* .text{
+    color: red;
+} */
+/* .text.text-bold.text-red{
+    color: red;
+}
+.text.text-green{
+    color: green;
+} */
+
+/* #main .text-green{
+    font-size: 36px;
+    color: brown;
+} */
+
+
+/* .text-green, .text-red{
+    font-size: 20px;
+}
+
+.text-green{
+    font-size: 20px;
+}
+.text-red{
+    font-size: 20px;
+} */
+
+/* .container>.text {
+    font-size: 36px;
+    color: red;
+} */
+
+
+/* .container .text{
+    color: chartreuse;
+}  */
+
+
+/* a[target="_blank"] {
+    color: green;
+    font-size: 24px;
+    text-decoration: none;
+} */
+
+/* .my-div {
+    width: 500px;
+    height: 500px;
+    background-color: teal;
+}
+
+.my-div:hover {
+    background-color: red;
+}
+
+.my-div .parag:hover {
+    background-color: green;
+    color: blanchedalmond;
+}
+
+#test4:visited {
+    color: red;
+}
+
+#test4:active {
+    background-color: green;
+} */
+
+
+/* .lorem:first-child {
+    color: red;
+    font-weight: bold;
+} */
+.lorem-div p:last-child {
+    background-color: yellow;
+}
+
+#my-parag::after {
+    content: "-salam";
+}
+#my-parag::before {
+    content: "privet-";
+}
