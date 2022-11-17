@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Nova+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    margin: 20px;
+    color: red;
+    /* background-color: gray; */
+    text-align: left;
+    /* text-decoration: underline; */
+    /* text-decoration-color: blue; */
+    /* text-decoration-style: dashed;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-indent: 50px; */
+
+    /* letter-spacing: 10px; */
+    /* word-spacing: 20px; */
+    /* line-height: 50px; */
+    /* white-space: nowrap; */
+
+    text-shadow: 3px 3px 5px blue;
+}
