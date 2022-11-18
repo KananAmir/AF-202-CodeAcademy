@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="position.css" />
+    <title>CSS Positions</title>
+    <style>
+      /* body {
+        height: 2000px;
+      } */
+      .fixed {
+        width: 100px;
+        height: 50px;
+        background-color: aqua;
+        position: fixed;
+        /* top: 20px;
+        right: 0; */
+      }
+      header {
+        width: 100vw;
+        height: 40px;
+        background-color: #000;
+        position: fixed;
+        top: 0;
+      }
+
+      footer {
+        width: 100vw;
+        height: 40px;
+        background-color: aqua;
+      }
+      .main {
+        height: 150vh;
+        margin-top: 40px;
+      }
+
+      .sticky {
+        height: 30vh;
+        border: 1px solid black;
+        width: 100vw;
+      }
+      .sticky-box {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        position: sticky;
+        top: 0;
+        left: 90%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="box">
+     
+      </div>
+      <div class="box-2">
+     
+      </div>
+      <div class="box-3">
+     
+      </div>
+    </div> -->
+
+    <!-- <div class="fixed"></div> -->
+
+    <header></header>
+    <section class="main">
+      <div class="sticky">
+        <div class="sticky-box"></div>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>

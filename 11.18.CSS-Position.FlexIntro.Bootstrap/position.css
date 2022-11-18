@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+body {
+    height: 100vh;
+} */
+
+/* .container {
+    width: 500px;
+    height: 500px;
+    background-color: teal;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 3;
+}
+
+.box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: 2;
+}
+ */
