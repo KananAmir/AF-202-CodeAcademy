@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.box {
+    background-color: #225CC7;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.top-part {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    column-gap: 10px;
+}
+
+.top-left-part {
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    column-gap: 10px;
+}
+
+.home,
+.about {
+    width: 50%;
+    height: 50vh;
+}
+
+.top-right-part {
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.projects {
+    width: 100%;
+    height: 25vh;
+}
+
+.menu-part {
+    height: 25vh;
+    display: flex;
+    column-gap: 10px;
+}
+
+.blog,
+.gallery,
+.portfolio,
+.team {
+    height: 25vh;
+    width: 25%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .top-part {
+        width: 100%;
+        height: 50vh;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .top-left-part {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .home,
+    .about {
+        width: 50%;
+        height: 50vh;
+    }
+
+    .top-right-part {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .box {
+        background-color: red;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .box {
+        background-color: green;
+    }
+
+    .menu-part {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .blog,
+    .gallery,
+    .portfolio,
+    .team {
+        width: 49%;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .box {
+        background-color: yellow;
+    }
+
+
+    .top-left-part {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .home,
+    .about {
+        width: 100%;
+    }
+
+    .top-right-part {
+        width: 100%;
+    }
+
+    .blog,
+    .gallery,
+    .portfolio,
+    .team {
+        width: 100%;
+    }
+
+}
+
+.bottom-part {
+    background-color: aqua;
+}
