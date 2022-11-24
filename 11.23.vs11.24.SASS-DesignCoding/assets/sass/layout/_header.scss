@@ -1,0 +1,42 @@
+// @import "./variables";
+// @import "./_mixins";
+// @import "./_button";
+
+#header {
+    background-color: $secondary-color;
+    padding: 10px 0;
+    .header {
+        @include flexBox(space-between, center);
+
+        nav {
+            ul {
+                @include flexBox(space-between);
+                list-style: none;
+                width: 515px;
+                li {
+                    color: $color-white;
+                }
+            }
+        }
+        .contact-btn {
+            @extend %primary-button;
+        }
+        .menu {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .header {
+            nav {
+                display: none;
+            }
+            .contact-btn {
+                display: none;
+            }
+            .menu {
+                display: block;
+            }
+        }
+    }
+}
