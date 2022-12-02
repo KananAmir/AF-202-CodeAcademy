@@ -61,6 +61,8 @@ let count = 0;
 
 let interval;
 
+//first solution
+
 start.addEventListener("click", function () {
   start.disabled = true;
   stopBtn.disabled = false;
@@ -76,19 +78,19 @@ stopBtn.addEventListener("click", function () {
   clearInterval(interval);
 });
 
+//second solution
 
+// start.addEventListener("click", function () {
+//   start.setAttribute("disabled", "true");
+//   stopBtn.removeAttribute("disabled");
+//   interval = setInterval(() => {
+//     count++;
+//     result.innerText = count;
+//   }, 1000);
+// });
 
-start.addEventListener("click", function () {
-  start.setAttribute("disabled", "true");
-  stopBtn.removeAttribute("disabled");
-  interval = setInterval(() => {
-    count++;
-    result.innerText = count;
-  }, 1000);
-});
-
-stopBtn.addEventListener("click", function () {
-  stopBtn.setAttribute("disabled", "true");
-  start.removeAttribute("disabled");
-  clearInterval(interval);
-});
+// stopBtn.addEventListener("click", function () {
+//   stopBtn.setAttribute("disabled", "true");
+//   start.removeAttribute("disabled");
+//   clearInterval(interval);
+// });
