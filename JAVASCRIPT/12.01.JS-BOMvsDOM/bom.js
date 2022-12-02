@@ -62,6 +62,8 @@ let count = 0;
 let interval;
 
 start.addEventListener("click", function () {
+  start.disabled = true;
+  stopBtn.disabled = false;
   interval = setInterval(() => {
     count++;
     result.innerText = count;
@@ -69,5 +71,24 @@ start.addEventListener("click", function () {
 });
 
 stopBtn.addEventListener("click", function () {
+  start.disabled = false;
+  stopBtn.disabled = true;
+  clearInterval(interval);
+});
+
+
+
+start.addEventListener("click", function () {
+  start.setAttribute("disabled", "true");
+  stopBtn.removeAttribute("disabled");
+  interval = setInterval(() => {
+    count++;
+    result.innerText = count;
+  }, 1000);
+});
+
+stopBtn.addEventListener("click", function () {
+  stopBtn.setAttribute("disabled", "true");
+  start.removeAttribute("disabled");
   clearInterval(interval);
 });

@@ -1,0 +1,26 @@
+mouse events
+-click
+-mouseDown
+-MouseUp
+-mouseover
+-mouseout
+-mousemove
+-mouseenter
+
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_mouseenter_mouseover
+keyboard events
+-input
+-keydown
+-keypress
+-keyup
+
+Form Events
+-submit
+-change
+-input
+
+Focus and Blur Events
+-focus
+-blur
+
+The scroll, onload and onunload Events
