@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        height: 200vh;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10%;
+        background-color: teal;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        font-size: 24px;
+        transition: all 2s;
+      }
+      header.scroll {
+        padding: 0px 10%;
+        background-color: rgb(22, 208, 208);
+        font-size: 20px;
+        transition: all 2s;
+      }
+
+      ul {
+        display: flex;
+        list-style: none;
+      }
+      ul li {
+        margin: 0 15px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p class="logo">Logo</p>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </header>
+
+    <script>
+      let header = document.querySelector("header");
+
+    //   window.addEventListener("scroll", function () {
+    //     // console.log(window.scrollY);
+    //     window.scrollY > 115
+    //       ? header.classList.add("scroll")
+    //       : header.classList.remove("scroll");
+    //   });
+
+      window.addEventListener("scroll", function(){
+        header.classList.toggle("scroll", window.scrollY > 0);
+      })
+
+
+    </script>
+  </body>
+</html>
