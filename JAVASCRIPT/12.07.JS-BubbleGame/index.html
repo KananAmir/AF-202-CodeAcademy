@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      .box {
+        height: 500px;
+        position: relative;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row m-4">
+        <div class="col-7 border border-2 border-danger">
+          <div class="box"></div>
+        </div>
+        <div
+          class="col-5 border border-2 border-primary p-5 d-flex justify-content-center align-items-center"
+        >
+          <div class="text-center">
+            <button id="start" class="btn btn-success">Start</button>
+            <button id="stop" class="btn btn-danger">Stop</button>
+            <p class="mt-4">Score: <span id="score">0</span></p>
+            <button id="reset" class="btn btn-dark">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
