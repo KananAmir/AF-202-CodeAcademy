@@ -13,7 +13,7 @@ startBtn.addEventListener("click", function () {
   //   clearInterval(bubbleInterval);
   bubbleInterval = setInterval(function () {
     createBubble();
-  }, 500);
+  }, 250);
 
   document.querySelectorAll(".bubble").forEach((element) => {
     element.disabled = false;
@@ -57,7 +57,7 @@ function createBubble() {
 
   box.appendChild(bubble);
 
-  if (document.querySelectorAll(".bubble").length == 10) {
+  if (document.querySelectorAll(".bubble").length == 20) {
     clearInterval(bubbleInterval);
     if (confirm(`Game Over!! Your score is ${userScore}`)) {
       resetGame();
@@ -65,6 +65,8 @@ function createBubble() {
   }
 
   bubble.addEventListener("click", function () {
+    let mySound = new Audio("./mixkit-long-pop-2358.wav");
+    mySound.play();
     this.remove();
     userScore += 1;
     result.innerText = userScore;

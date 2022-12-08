@@ -5,10 +5,14 @@ let allInputs = document.querySelectorAll(".form-control");
 
 // console.log(localStorage);
 
-let allUsersData =
-  JSON.parse(localStorage.getItem("usersData")) == null
-    ? []
-    : JSON.parse(localStorage.getItem("usersData"));
+// let allUsersData =
+//   JSON.parse(localStorage.getItem("usersData")) == null
+//     ? []
+//     : JSON.parse(localStorage.getItem("usersData"));
+
+// let allUsersData = JSON.parse(localStorage.getItem("usersData")) || [];
+
+let allUsersData = JSON.parse(localStorage.getItem("usersData")) ?? []; 
 
 // console.log(allUsersData);
 form.addEventListener("submit", function (event) {
