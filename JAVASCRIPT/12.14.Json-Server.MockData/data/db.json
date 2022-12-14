@@ -1,0 +1,31 @@
+{
+  "blogs": [
+    {
+      "title": "Omnis quaerat quae d",
+      "body": "Dolorum reprehenderi Dolorum reprehenderi Dolorum reprehenderi Dolorum reprehenderi\n",
+      "author": "avaz",
+      "id": 1
+    },
+    {
+      "title": "Quam id voluptate id",
+      "body": "Numquam proident re",
+      "author": "kanan",
+      "id": 3
+    },
+    {
+      "title": "Quam id voluptate id",
+      "body": "Numquam proident re",
+      "author": "kanan",
+      "id": 4
+    }
+
+  ],
+  "users": [
+    {
+      "name": "Kanan"
+    },
+    {
+      "name": "Gurban"
+    }
+  ]
+}
